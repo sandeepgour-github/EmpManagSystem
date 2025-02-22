@@ -31,7 +31,7 @@ public class EmployeeRunner implements CommandLineRunner{
 				   String name=sc.nextLine();
 				   System.out.println("Enter emp salary:");
 				   double sal=sc.nextDouble();
-				   System.out.println("Enter empno:");
+				   System.out.println("Enter department no:");
 				   int depno=sc.nextInt();
 				   Employee emp=new Employee(id,name,sal,depno);
 			       int ans=service.insertEmployee(emp);
