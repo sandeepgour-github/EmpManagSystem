@@ -75,7 +75,7 @@ public class EmployeeRunner implements CommandLineRunner{
 					   String n=sc.nextLine();
 					   System.out.println("Enter emp salary:");
 					   double s=sc.nextDouble();
-					   System.out.println("Enter empno:");
+					   System.out.println("Enter department no:");
 					   int d=sc.nextInt();
 					   Employee e=new Employee();
 					   e.setEname(n);
