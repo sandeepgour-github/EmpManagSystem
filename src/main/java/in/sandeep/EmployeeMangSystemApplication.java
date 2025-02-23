@@ -8,5 +8,6 @@ public class EmployeeMangSystemApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EmployeeMangSystemApplication.class, args);
+		System.out.println("dfdfdf");
 	}
 }
